@@ -136,9 +136,5 @@ document.addEventListener("DOMContentLoaded", function() {
     const audio = document.getElementById("song");
 
     // Attempt to play the audio
-    audio.play().catch(function(error) {
-      console.log("Audio playback failed:", error);
-      // Optionally, you can show a message to the user to interact with the page
-      alert("Click anywhere on the page to start the music.");
-    });
-  });
+    audio.play();
+});
