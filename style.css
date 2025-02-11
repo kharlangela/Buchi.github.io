@@ -342,81 +342,81 @@ h5 {
 }
 
 .pelican-eel {
-	top: 3000px;
+	top: 2900px;
 	left: 50%;
 	margin-left: -400px;
 }
 
 .deepsea-lizardfish {
-	top: 3500px;
+	top: 3200px;
 	left: 50%;
 	margin-left: -100px;
 }
 
 .titanic {
-	top: 3800px;
+	top: 3500px;
 	left: 50%;
-	margin-left: 200px;
+	margin-left: -400px;
 }
 
 .atolla-jellyfish {
-	top: 4000px;
+	top: 3800px;
 	left: 50%;
 	margin-left: -400px;
 }
 
 .fangtooth {
-	top: 5000px;
+	top: 3900px;
 	left: 50%;
-	margin-left: -400px;
+	margin-left: -150px;
 }
 
 .faceless-fish {
-	top: 5100px;
-	left: 50%;
-	margin-left: 200px;
-}
-
-.grenadier {
-	top: 7000px;
-	left: 50%;
-	margin-left: 200px;
-}
-
-.dumbo-octopus {
-	top: 7000px;
-	left: 50%;
-	margin-left: -400px;
-}
-
-.comb-jelly {
-	top: 7210px;
+	top: 4200px;
 	left: 50%;
 	margin-left: -100px;
 }
 
-.hadal-snailfish {
-	top: 8100px;
+.grenadier {
+	top: 4900px;
 	left: 50%;
-	margin-left: 200px;
+	margin-left: 90px;
 }
 
-.sea-pig {
-	top: 10000px;
+.dumbo-octopus {
+	top: 4700px;
 	left: 50%;
 	margin-left: -300px;
 }
 
-.alicella {
-	top: 10300px;
+.comb-jelly {
+	top: 4500px;
 	left: 50%;
-	margin-left: 100px;
+	margin-left: -300px;
+}
+
+.hadal-snailfish {
+	top: 5200px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+.sea-pig {
+	top: 5500px;
+	left: 50%;
+	margin-left: -400px;
+}
+
+.alicella {
+	top: 5800px;
+	left: 50%;
+	margin-left: -200px;
 }
 
 .deepsea {
-	top: 10898px;
+	top: 6300px;
 	left: 50%;
-	margin-left: -200px;
+	margin-left: -250px;
 }
 .fangtooth img,
 .faceless-fish img {
