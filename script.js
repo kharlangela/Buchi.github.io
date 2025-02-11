@@ -135,6 +135,13 @@ document.addEventListener("mousemove", function (e) {
 document.addEventListener("DOMContentLoaded", function() {
     const audio = document.getElementById("song");
 
+	// Set the time in seconds where you want the audio to start
+    const startTime = 13; // Change this to your desired start time
+
+    // Set the current time to the desired start time
+    audio.currentTime = startTime;
+
     // Attempt to play the audio
     audio.play();
 });
+
