@@ -145,6 +145,18 @@ h5 {
 	text-align: center;
 }
 
+.end h3 {
+	padding-top: 100px;
+	color: #C4D9FF;
+	text-align: center;
+}
+
+.end p {
+	padding-top: 10px;
+	color: #C4D9FF;
+	text-align: center;
+}
+
 .species,
 .titles {
 	opacity: 0;
