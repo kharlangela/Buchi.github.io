@@ -264,9 +264,9 @@ h5 {
 }
 
 .japanese-spider-crab {
-	top: 300px;
+	top: 250px;
 	left: 50%;
-	margin-left: 100px;
+	margin-left: 70px;
 }
 
 .cuttlefish {
@@ -300,15 +300,15 @@ h5 {
 }
 
 .vampire-squid {
-	top: 1200px;
+	top: 1400px;
 	left: 50%;
-	margin-left: -400px;
+	margin-left: -200px;
 }
 
 .goblin-shark {
-	top: 1300px;
+	top: 1040px;
 	left: 50%;
-	margin-left: -150px;
+	margin-left: -280px;
 }
 
 .firework-jellyfish {
@@ -324,21 +324,21 @@ h5 {
 }
 
 .barreleye-fish {
-	top: 2500px;
+	top: 2100px;
 	left: 50%;
-	margin-left: -400px;
+	margin-left: -300px;
 }
 
 .anglerfish {
-	top: 2500px;
+	top: 1800px;
 	left: 50%;
-	margin-left: -100px;
+	margin-left: -300px;
 }
 
 .chimaera {
 	top: 2600px;
 	left: 50%;
-	margin-left: 200px;
+	margin-left: -100px;
 }
 
 .pelican-eel {
