@@ -133,15 +133,33 @@ document.addEventListener("mousemove", function (e) {
 
 // BG Music
 document.addEventListener("DOMContentLoaded", function() {
-    const audio = document.getElementById("song");
+	const audio = document.getElementById("song");
+	const startTime = 13; // Change this to your desired start time
 
-	// Set the time in seconds where you want the audio to start
-    const startTime = 13; // Change this to your desired start time
+	// Set the current time to the desired start time
+	audio.currentTime = startTime;
 
-    // Set the current time to the desired start time
-    audio.currentTime = startTime;
+	// Function to check if the device is mobile
+	function isMobile() {
+		return window.innerWidth <= 768; // You can adjust this value as needed
+	}
 
-    // Attempt to play the audio
-    audio.play();
+	// Create a button to play the audio only on mobile
+	if (isMobile()) {
+		const playButton = document.createElement("button");
+		playButton.textContent = "Play Music";
+		document.body.appendChild(playButton);
+
+		playButton.addEventListener("click", function() {
+			audio.play().catch(function(error) {
+				console.error("Playback failed:", error);
+			});
+		});
+	} else {
+		// Optionally, you can play the audio automatically on desktop
+		audio.play().catch(function(error) {
+			console.error("Playback failed:", error);
+		});
+	}
 });
 
