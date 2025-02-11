@@ -146,13 +146,14 @@ h5 {
 }
 
 .end h3 {
+	font-size: 20px;
 	padding-top: 100px;
 	color: #C4D9FF;
 	text-align: center;
 }
 
 .end p {
-	padding-top: 10px;
+	font-size: 15px;
 	color: #C4D9FF;
 	text-align: center;
 }
