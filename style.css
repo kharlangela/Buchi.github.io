@@ -147,8 +147,15 @@ h5 {
 
 .end h3 {
 	font-size: 20px;
-	padding-top: 100px;
+	padding-top: 30px;
 	color: #C4D9FF;
+	text-align: center;
+}
+
+.end h4 {
+	font-size: 30px;
+	padding-top: 80px;
+	color: #8E1616;
 	text-align: center;
 }
 
